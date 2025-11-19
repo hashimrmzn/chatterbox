@@ -28,12 +28,7 @@ function ChatHeader() {
 
       {/* Right side: Actions */}
       <div className="d-flex align-items-center gap-2">
-        <Button variant="outline-secondary" size="sm">
-          <Phone size={18} />
-        </Button>
-        <Button variant="outline-secondary" size="sm">
-          <Video size={18} />
-        </Button>
+   
         <Button variant="outline-secondary" size="sm">
           <Info size={18} />
         </Button>
