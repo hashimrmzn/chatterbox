@@ -1,4 +1,5 @@
-import { connectDB, Message } from "./_db";
+import { connectDB} from "./db";
+import { Message } from "./db/models";
 import Pusher from "pusher";
 
 const pusher = new Pusher({

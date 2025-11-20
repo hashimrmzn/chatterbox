@@ -1,4 +1,5 @@
-import { connectDB, Chat } from "./_db";
+import { connectDB} from "./db";
+import {Chat} from ".db/models"
 
 export default async function handler(req, res) {
   await connectDB();
